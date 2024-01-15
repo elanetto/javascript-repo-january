@@ -1,0 +1,21 @@
+* {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+.ad {
+    background-color: deepskyblue;
+    padding: 2rem;
+    color: white;
+    font-size: 2rem;
+    display: none;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
