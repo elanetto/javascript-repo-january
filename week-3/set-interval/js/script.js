@@ -91,6 +91,10 @@ console.log(numbers);
 // sort from low to hight:
 
 numbers.sort(function(a, b){return a-b});
+// a and b: It will take the two first numbers [0] as a,
+// and b as [1], and then it will compare those two.
+// and then on and on, it will compare two and two items. 
+// a and b is two elements in the array that it compares
 
 let lowest = numbers[0];
 console.log("sorted numbers: ", numbers);
@@ -104,6 +108,15 @@ console.log("Max index number 14 - 1 gives the index of 13 (because index starts
 
 // Get only the positive numbers:
 
-// let positiveNumbers = if (numbers > 0) {
-    
-// }
+
+let positiveEvenArray = [];
+for (let i = 0; i < numbers.length; i++ ) {
+    console.log("numbers[i]: ",numbers[i]);
+    if(numbers[i] > 0) { // true
+        if(numbers[i] % 2 === 0){ //remainder is 0
+        }
+        positiveEvenArray.push(numbers[i]);
+    }
+};
+
+console.log("The new array is: ",positiveEvenArray);
