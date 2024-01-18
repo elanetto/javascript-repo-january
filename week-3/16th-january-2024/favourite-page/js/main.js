@@ -7,7 +7,7 @@ const productsContainer = document.querySelector(".products-container");
 // 2. fill the container of the products with products
 
 for (let i = 0; i < productsData.length; i++) {
-    console.log(productsData[i]);
+    console.log("Product: ",productsData[i]);
     productsContainer.innerHTML += `
             <div class="product">
                 <img alt="random photo" src="https://picsum.photos/200" />
